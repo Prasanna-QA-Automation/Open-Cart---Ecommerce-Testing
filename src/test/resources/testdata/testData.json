@@ -1,0 +1,30 @@
+{
+  "users": {
+    "validUser": {
+      "email": "demo@opencart.com",
+      "password": "demo"
+    },
+    "invalidUser": {
+      "email": "invalid@example.com",
+      "password": "wrongpassword"
+    }
+  },
+  "products": {
+    "existingProduct": "iPhone",
+    "nonExistingProduct": "nonexistingproduct12345",
+    "specialCharsProduct": "!@#$%^&*()"
+  },
+  "registration": {
+    "newUser": {
+      "firstName": "Test",
+      "lastName": "User",
+      "email": "testuser{timestamp}@example.com",
+      "telephone": "1234567890",
+      "password": "password123"
+    }
+  },
+  "cart": {
+    "quantity": "2",
+    "coupon": "DISCOUNT10"
+  }
+}

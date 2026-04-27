@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OpenCart Ecommerce Test Suite" verbose="1" parallel="methods" thread-count="3">
+    <listeners>
+        <listener class-name="com.opencart.utils.TestListener"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.opencart.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Registration Tests">
+        <classes>
+            <class name="com.opencart.tests.RegistrationTest"/>
+        </classes>
+    </test>
+
+    <test name="Search Tests">
+        <classes>
+            <class name="com.opencart.tests.SearchTest"/>
+        </classes>
+    </test>
+
+    <test name="Shopping Cart Tests">
+        <classes>
+            <class name="com.opencart.tests.ShoppingCartTest"/>
+        </classes>
+    </test>
+
+    <test name="All Tests">
+        <classes>
+            <class name="com.opencart.tests.LoginTest"/>
+            <class name="com.opencart.tests.RegistrationTest"/>
+            <class name="com.opencart.tests.SearchTest"/>
+            <class name="com.opencart.tests.ShoppingCartTest"/>
+        </classes>
+    </test>
+</suite>
